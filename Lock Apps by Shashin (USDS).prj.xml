@@ -1,0 +1,3410 @@
+<TaskerData sr="" dvi="1" tv="6.6.20">
+	<dmetric>1080.0,2316.0</dmetric>
+	<Profile sr="prof212" ve="2">
+		<cdate>1766909550978</cdate>
+		<clp>true</clp>
+		<edate>1768398761148</edate>
+		<flags>8</flags>
+		<id>212</id>
+		<limit>true</limit>
+		<mid0>201</mid0>
+		<nme>Administrative Apps Lock</nme>
+		<Event sr="con0" ve="2">
+			<code>2085</code>
+			<pri>0</pri>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%lc_text
+Text
+The text that corresponds to the matched logcat entry&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3">~RDeviceAdminSettings</Str>
+			<Int sr="arg3" val="0"/>
+		</Event>
+	</Profile>
+	<Profile sr="prof213" ve="2">
+		<cdate>1766909550982</cdate>
+		<clp>true</clp>
+		<edate>1768386491878</edate>
+		<flags>8</flags>
+		<id>213</id>
+		<limit>true</limit>
+		<mid0>200</mid0>
+		<nme>Tasker Settings Lock</nme>
+		<Event sr="con0" ve="2">
+			<code>2085</code>
+			<pri>0</pri>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%lc_text
+Text
+The text that corresponds to the matched logcat entry&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">AppLocaleUtil</Str>
+			<Str sr="arg2" ve="3">net.dinglisch.android.taskerm</Str>
+			<Int sr="arg3" val="0"/>
+		</Event>
+	</Profile>
+	<Profile sr="prof215" ve="2">
+		<cdate>1766909550982</cdate>
+		<clp>true</clp>
+		<edate>1771917143491</edate>
+		<flags>8</flags>
+		<id>215</id>
+		<mid0>204</mid0>
+		<nme>Lock All On Shutdown</nme>
+		<Event sr="con0" ve="2">
+			<code>413</code>
+		</Event>
+	</Profile>
+	<Profile sr="prof216" ve="2">
+		<cdate>1766909550982</cdate>
+		<clp>true</clp>
+		<edate>1771917140385</edate>
+		<flags>8</flags>
+		<id>216</id>
+		<mid0>204</mid0>
+		<nme>Lock All On Display Off</nme>
+		<Event sr="con0" ve="2">
+			<code>210</code>
+		</Event>
+	</Profile>
+	<Profile sr="prof219" ve="2">
+		<cdate>1766909550987</cdate>
+		<clp>true</clp>
+		<edate>1768398762869</edate>
+		<flags>8</flags>
+		<id>219</id>
+		<limit>true</limit>
+		<mid0>211</mid0>
+		<nme>Developer Settings Lock</nme>
+		<Event sr="con0" ve="2">
+			<code>2085</code>
+			<pri>0</pri>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%lc_text
+Text
+The text that corresponds to the matched logcat entry&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3">~RDevelopmentSettings</Str>
+			<Int sr="arg3" val="0"/>
+		</Event>
+	</Profile>
+	<Profile sr="prof221" ve="2">
+		<cdate>1766909550993</cdate>
+		<clp>true</clp>
+		<edate>1772006573458</edate>
+		<flags>8</flags>
+		<id>221</id>
+		<mid0>196</mid0>
+		<mid1>484</mid1>
+		<nme>Tasker Lock (Apps Lock)</nme>
+		<State sr="con0" ve="2">
+			<code>160</code>
+			<pin>true</pin>
+			<Str sr="arg0" ve="3">Udaya house</Str>
+			<Str sr="arg1" ve="3">5c:e8:83:6b:35:58</Str>
+			<Str sr="arg2" ve="3"/>
+			<Int sr="arg3" val="0"/>
+		</State>
+		<App sr="con1" ve="2">
+			<cls0>com.whatsapp.Main</cls0>
+			<cls1>com.ss.android.ugc.aweme.splash.SplashActivity</cls1>
+			<cls2>org.telegram.messenger.DefaultIcon</cls2>
+			<cls3>launcher.default</cls3>
+			<cls4>com.instagram.android.activity.MainTabActivity</cls4>
+			<cls5>com.hikvision.hikconnect.login.LoadingActivity</cls5>
+			<cls6>com.mm.android.easy4ip.SplashActivity</cls6>
+			<cls7>com.samsung.android.gallery.app.activity.GalleryActivity</cls7>
+			<cls8>com.facebook.katana.LoginActivity</cls8>
+			<flags>2</flags>
+			<label0>WhatsApp</label0>
+			<label1>TikTok</label1>
+			<label2>Telegram</label2>
+			<label3>Reddit</label3>
+			<label4>Instagram</label4>
+			<label5>Hik-Connect</label5>
+			<label6>Imou Life</label6>
+			<label7>Gallery</label7>
+			<label8>Facebook</label8>
+			<pkg0>com.whatsapp</pkg0>
+			<pkg1>com.zhiliaoapp.musically</pkg1>
+			<pkg2>org.telegram.messenger</pkg2>
+			<pkg3>com.reddit.frontpage</pkg3>
+			<pkg4>com.instagram.android</pkg4>
+			<pkg5>com.connect.enduser</pkg5>
+			<pkg6>com.mm.android.smartlifeiot</pkg6>
+			<pkg7>com.sec.android.gallery3d</pkg7>
+			<pkg8>com.facebook.katana</pkg8>
+		</App>
+	</Profile>
+	<Project sr="proj0" ve="2">
+		<cdate>1679034005600</cdate>
+		<name>App Lock</name>
+		<pids>219,213,212,221,215,216</pids>
+		<scenes>App Lock,App Lock Check,Bakcup</scenes>
+		<tids>484,223,211,224,207,228,200,196,201,226,227,225,204,520,252,17,264</tids>
+		<Share sr="Share">
+			<b>false</b>
+			<d>A simple app locker project. Uses logcat entries to prevent access to sensitive settings
+
+Description and discussion here: https://www.reddit.com/r/tasker/comments/11xsn9b/project_app_locker_with_tasker/</d>
+			<g>Apps,Logcat,Scenes</g>
+			<p>true</p>
+			<t></t>
+		</Share>
+		<Img sr="icon" ve="2">
+			<nme>mw_action_lock_outline</nme>
+		</Img>
+	</Project>
+	<Scene sr="sceneApp Lock">
+		<cdate>1678987143650</cdate>
+		<edate>1772786768527</edate>
+		<heightLand>1080</heightLand>
+		<heightPort>2400</heightPort>
+		<nme>App Lock</nme>
+		<widthLand>2400</widthLand>
+		<widthPort>1080</widthPort>
+		<RectElement sr="elements0">
+			<flags>4</flags>
+			<geom>0,0,1070,2397,0,0,2400,1080</geom>
+			<Str sr="arg0" ve="3">Rectangle1</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FF000000</Str>
+			<Str sr="arg3" ve="3">#BC000000</Str>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<ImageElement sr="elements1" ve="2">
+			<clickTask>224</clickTask>
+			<flags>4</flags>
+			<geom>0,2287,112,112,0,0,0,0</geom>
+			<longclickTask>223</longclickTask>
+			<Str sr="arg0" ve="3">Image2</Str>
+			<Img sr="arg1" ve="2">
+				<nme>mw_communication_phonelink_erase</nme>
+				<tint>-27136</tint>
+			</Img>
+			<Int sr="arg2" val="255"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#00000000</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</ImageElement>
+		<TextElement sr="elements2" ve="3">
+			<clickTask>227</clickTask>
+			<geom>0,0,909,208,0,0,0,0</geom>
+			<Str sr="arg0" ve="3">Text1</Str>
+			<Str sr="arg1" ve="3">Hold close ❌️ icon to access via PIN!</Str>
+			<Int sr="arg2" val="12"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3"/>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<WebElement sr="elements3" ve="2">
+			<flags>4</flags>
+			<geom>3,0,1077,1977,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">WebView11</Str>
+			<Int sr="arg1" val="2"/>
+			<Str sr="arg2" ve="3">&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+  &lt;meta charset="UTF-8"&gt;
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+  &lt;title&gt;Luxe Lock • Tasker WebView&lt;/title&gt;
+  &lt;!-- Font Awesome 5 for clean icons --&gt;
+  &lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"&gt;
+  &lt;style&gt;
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --blur-amount: 16px;
+      --bg-dark: rgba(8, 8, 18, 0.7);
+      --card-bg: rgba(255, 255, 255, 0.06);
+      --card-border: rgba(255, 255, 255, 0.1);
+      --text-primary: #ffffff;
+      --text-secondary: rgba(255, 255, 255, 0.8);
+      
+      --radius-large: 2.8rem;
+      --radius-medium: 2rem;
+      --padding-card: 2.8rem 2.2rem;
+      
+      --enter-duration: 0.7s;
+      --exit-duration: 0.45s;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
+      background: transparent;
+      /* deep cosmic gradient */
+      background: radial-gradient(ellipse at 40% 40%, #0d0b1a, #03010a);
+      background-attachment: fixed;
+      margin: 0;
+      padding: 1rem;
+    }
+
+    /* main lock container – full screen overlay */
+    .lock-screen {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1.5rem;
+      z-index: 10000;
+      backdrop-filter: blur(var(--blur-amount));
+      -webkit-backdrop-filter: blur(var(--blur-amount));
+      background-color: var(--bg-dark);
+      
+      /* entrance animation: smoother scale + fade */
+      animation: lockEnter var(--enter-duration) cubic-bezier(0.22, 1, 0.36, 1) forwards;
+    }
+
+    .lock-screen.exit {
+      animation: lockExit var(--exit-duration) cubic-bezier(0.4, 0, 0.2, 1) forwards;
+      pointer-events: none;
+    }
+
+    @keyframes lockEnter {
+      0% {
+        opacity: 0;
+        backdrop-filter: blur(0px);
+        -webkit-backdrop-filter: blur(0px);
+        background-color: rgba(8, 8, 18, 0);
+        transform: scale(1.02);
+      }
+      40% {
+        opacity: 1;
+        transform: scale(1);
+      }
+      100% {
+        opacity: 1;
+        backdrop-filter: blur(var(--blur-amount));
+        -webkit-backdrop-filter: blur(var(--blur-amount));
+        background-color: var(--bg-dark);
+        transform: scale(1);
+      }
+    }
+
+    @keyframes lockExit {
+      0% {
+        opacity: 1;
+        backdrop-filter: blur(var(--blur-amount));
+        background-color: var(--bg-dark);
+        transform: scale(1);
+      }
+      100% {
+        opacity: 0;
+        backdrop-filter: blur(0px);
+        background-color: rgba(8, 8, 18, 0);
+        transform: scale(0.98);
+      }
+    }
+
+    /* ===== MAIN CARD – floating glass masterpiece ===== */
+    .lock-card {
+      max-width: 480px;
+      width: 100%;
+      background: var(--card-bg);
+      backdrop-filter: blur(24px);
+      -webkit-backdrop-filter: blur(24px);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius-large);
+      padding: var(--padding-card);
+      box-shadow: 0 30px 70px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(255, 255, 255, 0.03) inset;
+      
+      /* animated gradient aura */
+      position: relative;
+      z-index: 1;
+      
+      /* floating animation */
+      animation: floatCard 6s ease-in-out infinite;
+      transform-origin: center;
+    }
+
+    @keyframes floatCard {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(-8px) scale(1.005); }
+      100% { transform: translateY(0px); }
+    }
+
+    /* glowing border animation (more vibrant) */
+    .lock-card::before {
+      content: '';
+      position: absolute;
+      top: -4px;
+      left: -4px;
+      right: -4px;
+      bottom: -4px;
+      border-radius: calc(var(--radius-large) + 5px);
+      background: linear-gradient(135deg, 
+        #ff99cc, #b380ff, #66b3ff, #99ff99, #ffcc66, #ff8080);
+      background-size: 300% 300%;
+      filter: blur(16px);
+      opacity: 0.7;
+      z-index: -2;
+      animation: borderFlow 10s ease infinite, rotateGlow 12s linear infinite;
+    }
+
+    .lock-card::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      border-radius: var(--radius-large);
+      background: inherit;
+      backdrop-filter: blur(30px);
+      -webkit-backdrop-filter: blur(30px);
+      z-index: -1;
+    }
+
+    @keyframes borderFlow {
+      0% { background-position: 0% 50%; filter: blur(16px); opacity: 0.6; }
+      50% { background-position: 100% 50%; filter: blur(24px); opacity: 1; }
+      100% { background-position: 0% 50%; filter: blur(16px); opacity: 0.6; }
+    }
+
+    @keyframes rotateGlow {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    /* icon container – now clickable */
+    .icon-wrapper {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 2rem;
+      cursor: pointer;
+      transition: transform 0.2s cubic-bezier(0.2, 0.9, 0.4, 1);
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    .icon-wrapper:active {
+      transform: scale(0.92);
+    }
+
+    .lock-icon {
+      font-size: 6rem;
+      color: white;
+      text-shadow: 0 0 30px #c05bff, 0 0 60px #ff4da6;
+      animation: iconPulse 2.2s infinite alternate, subtleRotate 12s infinite linear;
+      filter: drop-shadow(0 10px 15px rgba(0,0,0,0.4));
+      transition: all 0.3s;
+    }
+
+    .icon-wrapper:hover .lock-icon {
+      text-shadow: 0 0 40px #ff80bf, 0 0 80px #b380ff;
+    }
+
+    @keyframes iconPulse {
+      0% { transform: scale(1); filter: drop-shadow(0 0 5px #a866ff); }
+      100% { transform: scale(1.1); filter: drop-shadow(0 0 25px #ff66b2); }
+    }
+
+    @keyframes subtleRotate {
+      0% { transform: rotate(0deg); }
+      25% { transform: rotate(2deg); }
+      75% { transform: rotate(-2deg); }
+      100% { transform: rotate(0deg); }
+    }
+
+    h2 {
+      text-align: center;
+      font-weight: 500;
+      font-size: 2.4rem;
+      letter-spacing: 1px;
+      margin-bottom: 0.5rem;
+      background: linear-gradient(145deg, #f0eaff, #ffffff, #e0c8ff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      filter: drop-shadow(0 4px 6px rgba(0,0,0,0.3));
+      animation: textGlow 3s infinite alternate;
+    }
+
+    @keyframes textGlow {
+      0% { text-shadow: 0 0 5px rgba(255,255,255,0.2); }
+      100% { text-shadow: 0 0 20px rgba(200,160,255,0.5); }
+    }
+
+    .hint {
+      text-align: center;
+      color: var(--text-secondary);
+      font-weight: 300;
+      font-size: 1.2rem;
+      margin-bottom: 2.5rem;
+      backdrop-filter: blur(10px);
+      padding: 0.6rem 1.5rem;
+      border-radius: 60px;
+      background: rgba(255, 255, 255, 0.03);
+      display: inline-block;
+      width: auto;
+      margin-left: auto;
+      margin-right: auto;
+      border: 1px solid rgba(255,255,255,0.1);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+      animation: hintShimmer 4s infinite;
+    }
+
+    @keyframes hintShimmer {
+      0% { border-color: rgba(255,255,255,0.1); }
+      50% { border-color: rgba(200,180,255,0.3); box-shadow: 0 8px 30px rgba(170,0,255,0.2); }
+      100% { border-color: rgba(255,255,255,0.1); }
+    }
+
+    .fingerprint-area {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      background: rgba(20, 20, 40, 0.4);
+      border: 1px solid rgba(255, 215, 255, 0.2);
+      border-radius: 80px;
+      padding: 1rem 2.2rem;
+      margin-bottom: 2.2rem;
+      transition: all 0.2s;
+      width: fit-content;
+      margin-left: auto;
+      margin-right: auto;
+      backdrop-filter: blur(12px);
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .fingerprint-area::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 60%);
+      animation: rotateShine 8s linear infinite;
+      z-index: -1;
+    }
+
+    @keyframes rotateShine {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+
+    .fingerprint-area i {
+      font-size: 2.4rem;
+      color: #b0c8ff;
+      filter: drop-shadow(0 0 8px #6a4eff);
+      animation: fingerPulse 2s infinite alternate;
+    }
+
+    .fingerprint-area span {
+      font-size: 1.2rem;
+      font-weight: 350;
+      color: rgba(255,255,255,0.95);
+      letter-spacing: 0.5px;
+    }
+
+    @keyframes fingerPulse {
+      0% { opacity: 0.8; transform: scale(1); }
+      100% { opacity: 1; transform: scale(1.12); filter: drop-shadow(0 0 16px #9f7aff); }
+    }
+
+    /* subtle particle effect (via pseudo) */
+    .lock-card {
+      overflow: hidden;
+    }
+
+    .lock-card .glow-particles {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    /* we don't use actual particles to keep lightweight, but we add moving gradients */
+    .lock-card {
+      background-image: radial-gradient(circle at 30% 20%, rgba(255,140,200,0.15) 0%, transparent 30%),
+                        radial-gradient(circle at 80% 70%, rgba(100,150,255,0.15) 0%, transparent 35%);
+      background-blend-mode: overlay;
+    }
+
+    /* fallback tap indicator */
+    .tap-hint {
+      text-align: center;
+      font-size: 0.9rem;
+      color: rgba(255,255,255,0.4);
+      margin-top: 1rem;
+      animation: fadeHint 3s infinite;
+      letter-spacing: 1px;
+    }
+
+    @keyframes fadeHint {
+      0% { opacity: 0.4; }
+      50% { opacity: 1; }
+      100% { opacity: 0.4; }
+    }
+
+    /* no close button – removed completely */
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div class="lock-screen" id="lockScreen"&gt;
+    &lt;!-- main glass card (no close button) --&gt;
+    &lt;div class="lock-card"&gt;
+      &lt;!-- clickable lock icon – runs "App Lock" task --&gt;
+      &lt;div class="icon-wrapper" id="lockIconWrapper" onclick="runAppLockTask()"&gt;
+        &lt;i class="fas fa-lock lock-icon"&gt;&lt;/i&gt;
+      &lt;/div&gt;
+
+      &lt;h2&gt;App Locked&lt;/h2&gt;
+      &lt;div class="hint"&gt;
+        &lt;i class="fas fa-shield-alt" style="margin-right: 8px;"&gt;&lt;/i&gt; 
+        biometric required
+      &lt;/div&gt;
+
+      &lt;!-- fingerprint visual (just aesthetics) --&gt;
+      &lt;div class="fingerprint-area"&gt;
+        &lt;i class="fas fa-fingerprint"&gt;&lt;/i&gt;
+        &lt;span&gt;authenticate to continue&lt;/span&gt;
+      &lt;/div&gt;
+
+      &lt;!-- subtle tap fallback hint --&gt;
+      &lt;div class="tap-hint"&gt;
+        &lt;i class="fas fa-arrow-up"&gt;&lt;/i&gt; tap lock to retry
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;!-- ===== CORRECTED SCRIPT BLOCK ===== --&gt;
+  &lt;script&gt;
+    (function() {
+      'use strict';
+
+      const lockScreen = document.getElementById('lockScreen');
+
+      // --------------------------------------------------------------
+      //  FUNCTION: run App Lock task (triggered by tapping lock icon)
+      // --------------------------------------------------------------
+      window.runAppLockTask = function() {
+        // Visual feedback (already present)
+        const icon = document.querySelector('.lock-icon');
+        if (icon) {
+          icon.style.transform = 'scale(0.8)';
+          setTimeout(() =&gt; {
+            icon.style.transform = '';
+          }, 150);
+        }
+
+        // ----- CORRECT TASKER CALL -----
+        if (typeof tasker !== 'undefined' &amp;&amp; tasker &amp;&amp; typeof tasker.run === 'function') {
+          // Use the proper method to run a task by name
+          tasker.run('App Lock');
+          console.log('Tasker task "App Lock" launched via tasker.run');
+        } else {
+          // Fallback: try the custom URL scheme (works if WebView allows it)
+          console.warn('tasker.run not available – falling back to task: URL');
+          window.location.href = 'task:App Lock';
+        }
+      };
+
+      // --------------------------------------------------------------
+      //  ANIMATED EXIT (unchanged)
+      // --------------------------------------------------------------
+      window.animatedDestroy = function() {
+        if (lockScreen.classList.contains('exit')) return;
+        lockScreen.classList.add('exit');
+        lockScreen.addEventListener('animationend', function onAnimEnd(e) {
+          if (e.target === lockScreen &amp;&amp; e.animationName === 'lockExit') {
+            lockScreen.removeEventListener('animationend', onAnimEnd);
+            if (typeof destroyScene === 'function') {
+              destroyScene('LockScreen');
+            } else {
+              console.warn('destroyScene not found – scene would close now');
+              lockScreen.style.display = 'none';
+            }
+          }
+        });
+      };
+
+      console.log('✨ Luxe Lock Screen ready – tap lock to run App Lock task.');
+    })();
+  &lt;/script&gt;
+  &lt;!-- ===== END CORRECTED SCRIPT ===== --&gt;
+
+  &lt;!-- 
+    ========== TASKER INTEGRATION NOTES ==========
+    - Remove close button as requested.
+    - Lock icon (large) runs: tasker.run('App Lock') using Tasker's built‑in object.
+    - To close with animation, use Tasker JavaScript action:  animatedDestroy()
+    - Ensure your scene name in destroyScene matches (default "LockScreen").
+    - All animations are enhanced: floating card, rotating glow, pulsing icon, shimmer.
+  --&gt;
+&lt;/body&gt;
+&lt;/html&gt;</Str>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Str sr="arg8" ve="3"/>
+		</WebElement>
+		<ImageElement sr="elements4" ve="2">
+			<clickTask>225</clickTask>
+			<flags>4</flags>
+			<geom>966,0,90,90,0,0,0,0</geom>
+			<longclickTask>226</longclickTask>
+			<Str sr="arg0" ve="3">Image3</Str>
+			<Img sr="arg1" ve="2">
+				<nme>mw_navigation_close</nme>
+				<tint>-65536</tint>
+			</Img>
+			<Int sr="arg2" val="255"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#43000000</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="3"/>
+				<Str sr="arg5" ve="3">#FFFF0000</Str>
+				<Int sr="arg6" val="50"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</ImageElement>
+		<TextElement sr="elements5" ve="3">
+			<clickTask>228</clickTask>
+			<geom>187,2051,660,298,0,0,0,0</geom>
+			<Str sr="arg0" ve="3">Text11</Str>
+			<Str sr="arg1" ve="3">Click left icon to close credintials scan &amp; exit the App!</Str>
+			<Int sr="arg2" val="12"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#00000000</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</TextElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="2"/>
+			<Str sr="arg2" ve="3">#EF000000</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">Blur</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="sceneApp Lock Check">
+		<cdate>1772007987268</cdate>
+		<edate>1772786779593</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>2316</heightPort>
+		<nme>App Lock Check</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>1080</widthPort>
+		<RectElement sr="elements0">
+			<flags>6</flags>
+			<geom>0,0,1079,2316,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Rectangle1</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#FF000000</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</RectElement>
+		<WebElement sr="elements1" ve="2">
+			<flags>4</flags>
+			<geom>0,0,1079,2316,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">WebView1</Str>
+			<Int sr="arg1" val="2"/>
+			<Str sr="arg2" ve="3">&lt;!DOCTYPE html&gt;
+&lt;html lang="en" style="background: black;"&gt;
+&lt;head&gt;
+  &lt;meta charset="UTF-8"&gt;
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"&gt;
+  &lt;title&gt;Luxe Lock • S23 Ultra&lt;/title&gt;
+  &lt;!-- Preload Font Awesome --&gt;
+  &lt;link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"&gt;
+  &lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"&gt;
+  &lt;style&gt;
+    /* ===== RESET – NO WHITE FLASH ===== */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      background: black !important;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      position: fixed;
+    }
+
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
+    }
+
+    /* ===== AURORA – now fades in after card ===== */
+    .aurora {
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: radial-gradient(circle at 30% 40%, rgba(100, 200, 255, 0.2) 0%, transparent 30%),
+                  radial-gradient(circle at 70% 60%, rgba(255, 140, 200, 0.18) 0%, transparent 35%),
+                  radial-gradient(circle at 10% 80%, rgba(180, 130, 255, 0.15) 0%, transparent 40%);
+      filter: blur(40px); /* reduced from 60px */
+      animation: auroraMove 20s infinite alternate;
+      transform: translateZ(0);
+      will-change: transform, filter;
+      z-index: 0;
+      opacity: 0; /* start hidden */
+      transition: opacity 0.2s ease; /* smooth fade-in */
+    }
+
+    .aurora.visible {
+      opacity: 1;
+    }
+
+    @keyframes auroraMove {
+      0% { transform: translate(0, 0) rotate(0deg); }
+      100% { transform: translate(-5%, -5%) rotate(5deg); }
+    }
+
+    /* ===== MAIN LOCK SCREEN ===== */
+    .lock-screen {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 1.5rem;
+      z-index: 10000;
+      
+      background: radial-gradient(circle at 30% 40%, #1a0b2e 0%, #03010a 80%);
+      
+      animation: lockEnter 0.01s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+    }
+
+    .lock-screen.exit {
+      animation: lockExit 0.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+      pointer-events: none;
+    }
+
+    @keyframes lockEnter {
+      0% { opacity: 0; backdrop-filter: blur(0px); }
+      100% { opacity: 1; backdrop-filter: blur(16px); }
+    }
+
+    @keyframes lockExit {
+      0% { opacity: 1; backdrop-filter: blur(16px); }
+      100% { opacity: 0; backdrop-filter: blur(0px); }
+    }
+
+    /* ===== FLOATING PARTICLES – now fades in after card ===== */
+    .particle-field {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      z-index: 0;
+      opacity: 0; /* start hidden */
+      transition: opacity 0.2s ease;
+    }
+
+    .particle-field.visible {
+      opacity: 1;
+    }
+
+    .particle {
+      position: absolute;
+      background: radial-gradient(circle, rgba(255,255,255,0.03) 0%, transparent 70%);
+      border-radius: 50%;
+      animation: floatParticle 20s infinite linear;
+      transform: translateZ(0);
+    }
+
+    @keyframes floatParticle {
+      0% { transform: translateY(0) translateX(0) rotate(0deg); }
+      33% { transform: translateY(-40px) translateX(30px) rotate(120deg); }
+      66% { transform: translateY(20px) translateX(-20px) rotate(240deg); }
+      100% { transform: translateY(0) translateX(0) rotate(360deg); }
+    }
+
+    .particle:nth-child(1) { width: 180px; height: 180px; top: 10%; left: 5%; animation-duration: 25s; }
+    .particle:nth-child(2) { width: 250px; height: 250px; bottom: 0; right: 0; animation-duration: 30s; }
+    .particle:nth-child(3) { width: 150px; height: 150px; top: 60%; left: 20%; animation-duration: 22s; }
+    .particle:nth-child(4) { width: 300px; height: 300px; top: -50px; right: -50px; animation-duration: 35s; }
+    .particle:nth-child(5) { width: 120px; height: 120px; bottom: 20%; left: 70%; animation-duration: 18s; }
+    .particle:nth-child(6) { width: 200px; height: 200px; top: 30%; right: 15%; animation-duration: 28s; }
+    .particle:nth-child(7) { width: 90px; height: 90px; bottom: 40%; left: 40%; animation-duration: 15s; }
+    .particle:nth-child(8) { width: 350px; height: 350px; top: -100px; left: -100px; animation-duration: 40s; }
+    .particle:nth-child(9) { width: 130px; height: 130px; bottom: 10%; right: 30%; animation-duration: 20s; }
+    .particle:nth-child(10) { width: 220px; height: 220px; top: 70%; left: 80%; animation-duration: 26s; }
+
+    /* ===== MAIN CARD ===== */
+    .lock-card {
+      max-width: 520px;
+      width: 100%;
+      background: rgba(20, 15, 30, 0.3);
+      backdrop-filter: blur(30px) saturate(180%);
+      -webkit-backdrop-filter: blur(30px) saturate(180%);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      border-radius: 3.5rem;
+      padding: 3rem 2.5rem;
+      box-shadow: 0 40px 80px rgba(0, 0, 0, 0.7), 0 0 0 1px rgba(255, 255, 255, 0.05) inset, 0 0 40px rgba(160, 100, 255, 0.4);
+      position: relative;
+      z-index: 2;
+      transition: transform 0.1s ease-out;
+      margin-bottom: 60px;
+      transform: translateZ(0);
+      will-change: transform;
+    }
+
+    /* glowing border – blur slightly reduced */
+    .lock-card::before {
+      content: '';
+      position: absolute;
+      top: -6px;
+      left: -6px;
+      right: -6px;
+      bottom: -6px;
+      border-radius: calc(3.5rem + 6px);
+      background: linear-gradient(125deg, #ff99cc, #b380ff, #66b3ff, #99ff99, #ffcc66, #ff8080, #ff99cc);
+      background-size: 300% 300%;
+      filter: blur(15px); /* reduced from 18-28px range */
+      opacity: 0.8;
+      z-index: -2;
+      animation: borderFlow 12s ease infinite, rotateGlow 16s linear infinite;
+      transform: translateZ(0);
+      will-change: filter, transform;
+    }
+
+    .lock-card::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      border-radius: 3.5rem;
+      background: inherit;
+      backdrop-filter: blur(40px);
+      -webkit-backdrop-filter: blur(40px);
+      z-index: -1;
+      box-shadow: inset 0 2px 5px rgba(255,255,255,0.1);
+    }
+
+    @keyframes borderFlow {
+      0% { background-position: 0% 50%; filter: blur(15px); opacity: 0.7; }
+      50% { background-position: 100% 50%; filter: blur(22px); opacity: 1; }
+      100% { background-position: 0% 50%; filter: blur(15px); opacity: 0.7; }
+    }
+
+    @keyframes rotateGlow {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    /* ===== GLOWING ORB BEHIND ICON – blur reduced ===== */
+    .orb {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 200px;
+      height: 200px;
+      transform: translate(-50%, -50%) translateZ(0);
+      background: radial-gradient(circle, rgba(200, 160, 255, 0.4) 0%, transparent 70%);
+      border-radius: 50%;
+      filter: blur(30px); /* reduced from 40px */
+      z-index: -1;
+      animation: orbPulse 4s infinite alternate, orbHue 20s infinite linear;
+      will-change: transform, filter;
+    }
+
+    @keyframes orbPulse {
+      0% { opacity: 0.5; transform: translate(-50%, -50%) scale(1) translateZ(0); }
+      100% { opacity: 1; transform: translate(-50%, -50%) scale(1.2) translateZ(0); }
+    }
+
+    @keyframes orbHue {
+      0% { filter: blur(30px) hue-rotate(0deg); }
+      100% { filter: blur(30px) hue-rotate(360deg); }
+    }
+
+    /* ===== LOCK ICON ===== */
+    .icon-wrapper {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 2rem;
+      cursor: pointer;
+      transition: transform 0.2s cubic-bezier(0.2, 0.9, 0.4, 1);
+      -webkit-tap-highlight-color: transparent;
+      filter: drop-shadow(0 20px 30px rgba(0,0,0,0.6));
+    }
+
+    .icon-wrapper:active {
+      transform: scale(0.9);
+    }
+
+    .lock-icon {
+      font-size: 7rem;
+      color: white;
+      text-shadow: 0 0 30px #c05bff, 0 0 60px #ff4da6, 0 0 90px #7f4fff;
+      animation: iconFloat 3s infinite alternate, subtleRotate 8s infinite linear;
+      filter: drop-shadow(0 10px 20px rgba(0,0,0,0.5));
+      transition: transform 0.3s, text-shadow 0.3s;
+      position: relative;
+      z-index: 2;
+      transform: translateZ(0);
+    }
+
+    .lock-icon.wiggle {
+      animation: wiggle 0.3s ease;
+    }
+
+    @keyframes wiggle {
+      0%, 100% { transform: rotate(0deg); }
+      25% { transform: rotate(5deg); }
+      75% { transform: rotate(-5deg); }
+    }
+
+    @keyframes iconFloat {
+      0% { transform: translateY(0) rotateY(0deg) rotateX(2deg); }
+      100% { transform: translateY(-15px) rotateY(10deg) rotateX(5deg); }
+    }
+
+    @keyframes subtleRotate {
+      0% { transform: rotateY(0deg); }
+      25% { transform: rotateY(5deg); }
+      75% { transform: rotateY(-5deg); }
+      100% { transform: rotateY(0deg); }
+    }
+
+    /* ===== TYPOGRAPHY ===== */
+    h2 {
+      position: relative;
+      text-align: center;
+      font-weight: 600;
+      font-size: 2.8rem;
+      letter-spacing: 1px;
+      margin-bottom: 0.75rem;
+      background: linear-gradient(145deg, #ffffff, #f0d0ff, #c3a0ff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      filter: drop-shadow(0 4px 10px rgba(0,0,0,0.5));
+      animation: textGlow 3s infinite alternate;
+      text-transform: uppercase;
+    }
+
+    .shimmer {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+      animation: shimmer 3s infinite;
+      pointer-events: none;
+      transform: translateZ(0);
+    }
+
+    @keyframes shimmer {
+      0% { transform: translateX(-100%); }
+      20% { transform: translateX(100%); }
+      100% { transform: translateX(100%); }
+    }
+
+    @keyframes textGlow {
+      0% { text-shadow: 0 0 10px rgba(255,255,255,0.3); }
+      100% { text-shadow: 0 0 30px rgba(200,160,255,0.8); }
+    }
+
+    .hint {
+      text-align: center;
+      color: rgba(255,255,255,0.9);
+      font-weight: 400;
+      font-size: 1.3rem;
+      margin-bottom: 2.5rem;
+      backdrop-filter: blur(15px);
+      padding: 0.7rem 1.8rem;
+      border-radius: 60px;
+      background: rgba(255, 255, 255, 0.05);
+      display: inline-block;
+      width: auto;
+      margin-left: auto;
+      margin-right: auto;
+      border: 1px solid rgba(255,255,255,0.2);
+      box-shadow: 0 15px 30px rgba(0,0,0,0.3), 0 0 30px rgba(160,100,255,0.3);
+    }
+
+    /* ===== FINGERPRINT SENSOR ===== */
+    .sensor-location {
+      position: absolute;
+      left: 50%;
+      top: 76%;
+      transform: translate(-50%, -50%) translateZ(0);
+      width: 22%;
+      max-width: 140px;
+      min-width: 110px;
+      aspect-ratio: 1/1;
+      z-index: 10;
+      cursor: pointer;
+      -webkit-tap-highlight-color: transparent;
+      
+      background: rgba(255, 255, 255, 0.03);
+      border-radius: 50%;
+      backdrop-filter: blur(10px);
+      border: 2px solid rgba(255, 215, 255, 0.4);
+      box-shadow: 0 0 40px rgba(180, 130, 255, 0.8), 0 0 0 2px rgba(255,255,255,0.1) inset;
+      
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+      
+      animation: sensorPulse 2.2s infinite alternate;
+      transition: transform 0.2s, box-shadow 0.2s;
+      will-change: transform, box-shadow;
+    }
+
+    .scan-ring {
+      position: absolute;
+      top: -10px;
+      left: -10px;
+      right: -10px;
+      bottom: -10px;
+      border: 2px solid rgba(255, 255, 255, 0.3);
+      border-radius: 50%;
+      animation: scanRotate 6s linear infinite;
+      border-top-color: rgba(200, 160, 255, 0.8);
+      border-right-color: rgba(200, 160, 255, 0.2);
+      border-bottom-color: rgba(200, 160, 255, 0.2);
+      border-left-color: rgba(200, 160, 255, 0.2);
+      pointer-events: none;
+      transform: translateZ(0);
+    }
+
+    @keyframes scanRotate {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    .sensor-location:active .scan-ring {
+      animation-duration: 1s;
+    }
+
+    .sensor-location:active {
+      transform: translate(-50%, -50%) scale(0.92) translateZ(0);
+      box-shadow: 0 0 60px rgba(220, 180, 255, 1);
+    }
+
+    .sensor-location i {
+      font-size: 2.8rem;
+      color: white;
+      filter: drop-shadow(0 0 15px #b380ff);
+      animation: iconPulse 2s infinite alternate;
+    }
+
+    .sensor-location span {
+      font-size: 0.85rem;
+      font-weight: 500;
+      color: rgba(255,255,255,0.9);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      background: rgba(0,0,0,0.3);
+      padding: 4px 8px;
+      border-radius: 30px;
+      backdrop-filter: blur(5px);
+    }
+
+    @keyframes sensorPulse {
+      0% { box-shadow: 0 0 30px rgba(180, 130, 255, 0.6); border-color: rgba(255,215,255,0.3); }
+      100% { box-shadow: 0 0 70px rgba(220, 170, 255, 1); border-color: rgba(255,255,255,0.6); }
+    }
+
+    @keyframes iconPulse {
+      0% { transform: scale(1); filter: drop-shadow(0 0 10px #b380ff); }
+      100% { transform: scale(1.1); filter: drop-shadow(0 0 25px #ffb3ff); }
+    }
+
+    .sensor-hint {
+      position: absolute;
+      left: 50%;
+      top: calc(80% + 70px);
+      transform: translateX(-50%);
+      color: rgba(255,255,255,0.4);
+      font-size: 0.9rem;
+      white-space: nowrap;
+      z-index: 10;
+      animation: fadeHint 3s infinite;
+    }
+
+    @keyframes fadeHint {
+      0% { opacity: 0.3; }
+      50% { opacity: 1; }
+      100% { opacity: 0.3; }
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;!-- Aurora background (starts hidden) --&gt;
+  &lt;div class="aurora" id="aurora"&gt;&lt;/div&gt;
+
+  &lt;!-- Particle background (starts hidden) --&gt;
+  &lt;div class="particle-field" id="particleField"&gt;
+    &lt;div class="particle"&gt;&lt;/div&gt;
+    &lt;div class="particle"&gt;&lt;/div&gt;
+    &lt;div class="particle"&gt;&lt;/div&gt;
+    &lt;div class="particle"&gt;&lt;/div&gt;
+    &lt;div class="particle"&gt;&lt;/div&gt;
+    &lt;div class="particle"&gt;&lt;/div&gt;
+    &lt;div class="particle"&gt;&lt;/div&gt;
+    &lt;div class="particle"&gt;&lt;/div&gt;
+    &lt;div class="particle"&gt;&lt;/div&gt;
+    &lt;div class="particle"&gt;&lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class="lock-screen" id="lockScreen"&gt;
+    &lt;div class="lock-card" id="lockCard"&gt;
+      &lt;div class="icon-wrapper" id="lockIconWrapper" onclick="runAppLockTask()"&gt;
+        &lt;!-- Glowing orb behind icon --&gt;
+        &lt;div class="orb"&gt;&lt;/div&gt;
+        &lt;i class="fas fa-lock lock-icon" id="lockIcon"&gt;&lt;/i&gt;
+      &lt;/div&gt;
+      &lt;h2&gt;
+        App Locked
+        &lt;div class="shimmer"&gt;&lt;/div&gt;
+      &lt;/h2&gt;
+      &lt;div class="hint"&gt;
+        &lt;i class="fas fa-shield-alt" style="margin-right: 10px;"&gt;&lt;/i&gt; 
+        biometric required
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class="sensor-location" onclick="runAppLockTask()"&gt;
+      &lt;div class="scan-ring"&gt;&lt;/div&gt;
+      &lt;i class="fas fa-fingerprint"&gt;&lt;/i&gt;
+      &lt;span&gt;scan&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div class="sensor-hint"&gt;
+      &lt;i class="fas fa-arrow-up"&gt;&lt;/i&gt; tap sensor
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;script&gt;
+    (function() {
+      'use strict';
+
+      const lockScreen = document.getElementById('lockScreen');
+      const lockCard = document.getElementById('lockCard');
+      const lockIcon = document.getElementById('lockIcon');
+      const aurora = document.getElementById('aurora');
+      const particleField = document.getElementById('particleField');
+
+      // ===== Fade in background elements after a tiny delay =====
+      // Use requestAnimationFrame to ensure the card has painted first
+      requestAnimationFrame(() =&gt; {
+        requestAnimationFrame(() =&gt; {
+          // This runs after the first paint – perfect time to fade in backgrounds
+          aurora.classList.add('visible');
+          particleField.classList.add('visible');
+        });
+      });
+
+      // ===== 3D TILT (ultra lightweight) =====
+      if (window.DeviceOrientationEvent &amp;&amp; /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent)) {
+        let ticking = false;
+        window.addEventListener('deviceorientation', function(e) {
+          if (!ticking) {
+            window.requestAnimationFrame(function() {
+              if (e.beta &amp;&amp; e.gamma) {
+                let tiltX = Math.min(10, Math.max(-10, e.beta - 45)) / 2;
+                let tiltY = Math.min(10, Math.max(-10, e.gamma)) / 2;
+                lockCard.style.transform = `perspective(1000px) rotateX(${-tiltX}deg) rotateY(${tiltY}deg) scale3d(1, 1, 1)`;
+              }
+              ticking = false;
+            });
+            ticking = true;
+          }
+        }, { passive: true });
+      }
+
+      // ===== RUN TASKER TASK =====
+      window.runAppLockTask = function() {
+        // Visual feedback: wiggle icon
+        if (lockIcon) {
+          lockIcon.classList.add('wiggle');
+          setTimeout(() =&gt; lockIcon.classList.remove('wiggle'), 300);
+        }
+
+        // Sensor press effect is already in CSS
+
+        // Tasker call
+        if (typeof tasker !== 'undefined' &amp;&amp; tasker &amp;&amp; typeof tasker.run === 'function') {
+          tasker.run('App Lock');
+        } else {
+          window.location.href = 'task:App Lock';
+        }
+      };
+
+      // ===== ANIMATED EXIT =====
+      window.animatedDestroy = function() {
+        if (lockScreen.classList.contains('exit')) return;
+        lockScreen.classList.add('exit');
+        lockScreen.addEventListener('animationend', function onAnimEnd(e) {
+          if (e.target === lockScreen &amp;&amp; e.animationName === 'lockExit') {
+            lockScreen.removeEventListener('animationend', onAnimEnd);
+            if (typeof destroyScene === 'function') {
+              destroyScene('LockScreen');
+            } else {
+              lockScreen.style.display = 'none';
+            }
+          }
+        });
+      };
+
+      console.log('✨ Optimized S23 Ultra Lock Screen – instant card, smooth fade‑in backgrounds!');
+    })();
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</Str>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+			<Str sr="arg8" ve="3"/>
+		</WebElement>
+		<OvalElement sr="elements2">
+			<clickTask>520</clickTask>
+			<flags>4</flags>
+			<geom>676,1906,401,408,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Oval1</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#00333333</Str>
+			<Str sr="arg3" ve="3"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">#FF000000</Str>
+		</OvalElement>
+		<PropertiesElement sr="props">
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3">#33FFFFFF</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3">App Lock Check</Str>
+			<Str sr="arg5" ve="3"/>
+			<Img sr="arg6" ve="2"/>
+			<Str sr="arg7" ve="3"/>
+		</PropertiesElement>
+	</Scene>
+	<Scene sr="sceneBakcup">
+		<cdate>1772539571705</cdate>
+		<edate>1772540805684</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>1326</heightPort>
+		<nme>Bakcup</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>702</widthPort>
+		<WebElement sr="elements0" ve="2">
+			<flags>4</flags>
+			<geom>234,442,234,442,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">WebView1</Str>
+			<Int sr="arg1" val="2"/>
+			<Str sr="arg2" ve="3">&lt;!DOCTYPE html&gt;
+&lt;html lang="en" style="background: black;"&gt;
+&lt;head&gt;
+  &lt;meta charset="UTF-8"&gt;
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"&gt;
+  &lt;title&gt;Luxe Lock • S23 Ultra&lt;/title&gt;
+  &lt;!-- Font Awesome 5 --&gt;
+  &lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"&gt;
+  &lt;style&gt;
+    /* ===== RESET – NO WHITE FLASH ===== */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      background: black !important;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      position: fixed;
+    }
+
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
+    }
+
+    /* ===== AURORA (GPU accelerated) ===== */
+    .aurora {
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: radial-gradient(circle at 30% 40%, rgba(100, 200, 255, 0.2) 0%, transparent 30%),
+                  radial-gradient(circle at 70% 60%, rgba(255, 140, 200, 0.18) 0%, transparent 35%),
+                  radial-gradient(circle at 10% 80%, rgba(180, 130, 255, 0.15) 0%, transparent 40%);
+      filter: blur(60px);
+      animation: auroraMove 20s infinite alternate;
+      transform: translateZ(0); /* force GPU layer */
+      will-change: transform, filter;
+      z-index: 0;
+    }
+
+    @keyframes auroraMove {
+      0% { transform: translate(0, 0) rotate(0deg); }
+      100% { transform: translate(-5%, -5%) rotate(5deg); }
+    }
+
+    /* ===== MAIN LOCK SCREEN ===== */
+    .lock-screen {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 1.5rem;
+      z-index: 10000;
+      
+      background: radial-gradient(circle at 30% 40%, #1a0b2e 0%, #03010a 80%);
+      
+      animation: lockEnter 0.01s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+    }
+
+    .lock-screen.exit {
+      animation: lockExit 0.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+      pointer-events: none;
+    }
+
+    @keyframes lockEnter {
+      0% { opacity: 0; backdrop-filter: blur(0px); }
+      100% { opacity: 1; backdrop-filter: blur(16px); }
+    }
+
+    @keyframes lockExit {
+      0% { opacity: 1; backdrop-filter: blur(16px); }
+      100% { opacity: 0; backdrop-filter: blur(0px); }
+    }
+
+    /* ===== FLOATING PARTICLES (optimised) ===== */
+    .particle-field {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      z-index: 0;
+    }
+
+    .particle {
+      position: absolute;
+      background: radial-gradient(circle, rgba(255,255,255,0.03) 0%, transparent 70%);
+      border-radius: 50%;
+      animation: floatParticle 20s infinite linear;
+      transform: translateZ(0);
+      will-change: transform;
+    }
+
+    @keyframes floatParticle {
+      0% { transform: translateY(0) translateX(0) rotate(0deg); }
+      33% { transform: translateY(-40px) translateX(30px) rotate(120deg); }
+      66% { transform: translateY(20px) translateX(-20px) rotate(240deg); }
+      100% { transform: translateY(0) translateX(0) rotate(360deg); }
+    }
+
+    .particle:nth-child(1) { width: 180px; height: 180px; top: 10%; left: 5%; animation-duration: 25s; }
+    .particle:nth-child(2) { width: 250px; height: 250px; bottom: 0; right: 0; animation-duration: 30s; }
+    .particle:nth-child(3) { width: 150px; height: 150px; top: 60%; left: 20%; animation-duration: 22s; }
+    .particle:nth-child(4) { width: 300px; height: 300px; top: -50px; right: -50px; animation-duration: 35s; }
+    .particle:nth-child(5) { width: 120px; height: 120px; bottom: 20%; left: 70%; animation-duration: 18s; }
+    .particle:nth-child(6) { width: 200px; height: 200px; top: 30%; right: 15%; animation-duration: 28s; }
+    .particle:nth-child(7) { width: 90px; height: 90px; bottom: 40%; left: 40%; animation-duration: 15s; }
+    .particle:nth-child(8) { width: 350px; height: 350px; top: -100px; left: -100px; animation-duration: 40s; }
+    .particle:nth-child(9) { width: 130px; height: 130px; bottom: 10%; right: 30%; animation-duration: 20s; }
+    .particle:nth-child(10) { width: 220px; height: 220px; top: 70%; left: 80%; animation-duration: 26s; }
+
+    /* ===== MAIN CARD ===== */
+    .lock-card {
+      max-width: 520px;
+      width: 100%;
+      background: rgba(20, 15, 30, 0.3);
+      backdrop-filter: blur(30px) saturate(180%);
+      -webkit-backdrop-filter: blur(30px) saturate(180%);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      border-radius: 3.5rem;
+      padding: 3rem 2.5rem;
+      box-shadow: 0 40px 80px rgba(0, 0, 0, 0.7), 0 0 0 1px rgba(255, 255, 255, 0.05) inset, 0 0 40px rgba(160, 100, 255, 0.4);
+      position: relative;
+      z-index: 2;
+      transition: transform 0.1s ease-out;
+      margin-bottom: 60px;
+      transform: translateZ(0);
+      will-change: transform;
+    }
+
+    /* glowing border */
+    .lock-card::before {
+      content: '';
+      position: absolute;
+      top: -6px;
+      left: -6px;
+      right: -6px;
+      bottom: -6px;
+      border-radius: calc(3.5rem + 6px);
+      background: linear-gradient(125deg, #ff99cc, #b380ff, #66b3ff, #99ff99, #ffcc66, #ff8080, #ff99cc);
+      background-size: 300% 300%;
+      filter: blur(18px);
+      opacity: 0.8;
+      z-index: -2;
+      animation: borderFlow 12s ease infinite, rotateGlow 16s linear infinite;
+      transform: translateZ(0);
+      will-change: filter, transform;
+    }
+
+    .lock-card::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      border-radius: 3.5rem;
+      background: inherit;
+      backdrop-filter: blur(40px);
+      -webkit-backdrop-filter: blur(40px);
+      z-index: -1;
+      box-shadow: inset 0 2px 5px rgba(255,255,255,0.1);
+    }
+
+    @keyframes borderFlow {
+      0% { background-position: 0% 50%; filter: blur(18px); opacity: 0.7; }
+      50% { background-position: 100% 50%; filter: blur(28px); opacity: 1; }
+      100% { background-position: 0% 50%; filter: blur(18px); opacity: 0.7; }
+    }
+
+    @keyframes rotateGlow {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    /* ===== GLOWING ORB BEHIND ICON (GPU accelerated) ===== */
+    .orb {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 200px;
+      height: 200px;
+      transform: translate(-50%, -50%) translateZ(0);
+      background: radial-gradient(circle, rgba(200, 160, 255, 0.4) 0%, transparent 70%);
+      border-radius: 50%;
+      filter: blur(40px);
+      z-index: -1;
+      animation: orbPulse 4s infinite alternate, orbHue 20s infinite linear;
+      will-change: transform, filter;
+    }
+
+    @keyframes orbPulse {
+      0% { opacity: 0.5; transform: translate(-50%, -50%) scale(1) translateZ(0); }
+      100% { opacity: 1; transform: translate(-50%, -50%) scale(1.2) translateZ(0); }
+    }
+
+    @keyframes orbHue {
+      0% { filter: blur(40px) hue-rotate(0deg); }
+      100% { filter: blur(40px) hue-rotate(360deg); }
+    }
+
+    /* ===== LOCK ICON ===== */
+    .icon-wrapper {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 2rem;
+      cursor: pointer;
+      transition: transform 0.2s cubic-bezier(0.2, 0.9, 0.4, 1);
+      -webkit-tap-highlight-color: transparent;
+      filter: drop-shadow(0 20px 30px rgba(0,0,0,0.6));
+    }
+
+    .icon-wrapper:active {
+      transform: scale(0.9);
+    }
+
+    .lock-icon {
+      font-size: 7rem;
+      color: white;
+      text-shadow: 0 0 30px #c05bff, 0 0 60px #ff4da6, 0 0 90px #7f4fff;
+      animation: iconFloat 3s infinite alternate, subtleRotate 8s infinite linear;
+      filter: drop-shadow(0 10px 20px rgba(0,0,0,0.5));
+      transition: transform 0.3s, text-shadow 0.3s;
+      position: relative;
+      z-index: 2;
+      transform: translateZ(0);
+    }
+
+    .lock-icon.wiggle {
+      animation: wiggle 0.3s ease;
+    }
+
+    @keyframes wiggle {
+      0%, 100% { transform: rotate(0deg); }
+      25% { transform: rotate(5deg); }
+      75% { transform: rotate(-5deg); }
+    }
+
+    @keyframes iconFloat {
+      0% { transform: translateY(0) rotateY(0deg) rotateX(2deg); }
+      100% { transform: translateY(-15px) rotateY(10deg) rotateX(5deg); }
+    }
+
+    @keyframes subtleRotate {
+      0% { transform: rotateY(0deg); }
+      25% { transform: rotateY(5deg); }
+      75% { transform: rotateY(-5deg); }
+      100% { transform: rotateY(0deg); }
+    }
+
+    /* ===== TYPOGRAPHY ===== */
+    h2 {
+      position: relative;
+      text-align: center;
+      font-weight: 600;
+      font-size: 2.8rem;
+      letter-spacing: 1px;
+      margin-bottom: 0.75rem;
+      background: linear-gradient(145deg, #ffffff, #f0d0ff, #c3a0ff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      filter: drop-shadow(0 4px 10px rgba(0,0,0,0.5));
+      animation: textGlow 3s infinite alternate;
+      text-transform: uppercase;
+    }
+
+    .shimmer {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+      animation: shimmer 3s infinite;
+      pointer-events: none;
+      transform: translateZ(0);
+    }
+
+    @keyframes shimmer {
+      0% { transform: translateX(-100%); }
+      20% { transform: translateX(100%); }
+      100% { transform: translateX(100%); }
+    }
+
+    @keyframes textGlow {
+      0% { text-shadow: 0 0 10px rgba(255,255,255,0.3); }
+      100% { text-shadow: 0 0 30px rgba(200,160,255,0.8); }
+    }
+
+    .hint {
+      text-align: center;
+      color: rgba(255,255,255,0.9);
+      font-weight: 400;
+      font-size: 1.3rem;
+      margin-bottom: 2.5rem;
+      backdrop-filter: blur(15px);
+      padding: 0.7rem 1.8rem;
+      border-radius: 60px;
+      background: rgba(255, 255, 255, 0.05);
+      display: inline-block;
+      width: auto;
+      margin-left: auto;
+      margin-right: auto;
+      border: 1px solid rgba(255,255,255,0.2);
+      box-shadow: 0 15px 30px rgba(0,0,0,0.3), 0 0 30px rgba(160,100,255,0.3);
+    }
+
+    /* ===== FINGERPRINT SENSOR ===== */
+    .sensor-location {
+      position: absolute;
+      left: 50%;
+      top: 76%;
+      transform: translate(-50%, -50%) translateZ(0);
+      width: 22%;
+      max-width: 140px;
+      min-width: 110px;
+      aspect-ratio: 1/1;
+      z-index: 10;
+      cursor: pointer;
+      -webkit-tap-highlight-color: transparent;
+      
+      background: rgba(255, 255, 255, 0.03);
+      border-radius: 50%;
+      backdrop-filter: blur(10px);
+      border: 2px solid rgba(255, 215, 255, 0.4);
+      box-shadow: 0 0 40px rgba(180, 130, 255, 0.8), 0 0 0 2px rgba(255,255,255,0.1) inset;
+      
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+      
+      animation: sensorPulse 2.2s infinite alternate;
+      transition: transform 0.2s, box-shadow 0.2s;
+      will-change: transform, box-shadow;
+    }
+
+    .scan-ring {
+      position: absolute;
+      top: -10px;
+      left: -10px;
+      right: -10px;
+      bottom: -10px;
+      border: 2px solid rgba(255, 255, 255, 0.3);
+      border-radius: 50%;
+      animation: scanRotate 6s linear infinite;
+      border-top-color: rgba(200, 160, 255, 0.8);
+      border-right-color: rgba(200, 160, 255, 0.2);
+      border-bottom-color: rgba(200, 160, 255, 0.2);
+      border-left-color: rgba(200, 160, 255, 0.2);
+      pointer-events: none;
+      transform: translateZ(0);
+    }
+
+    @keyframes scanRotate {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    .sensor-location:active .scan-ring {
+      animation-duration: 1s;
+    }
+
+    .sensor-location:active {
+      transform: translate(-50%, -50%) scale(0.92) translateZ(0);
+      box-shadow: 0 0 60px rgba(220, 180, 255, 1);
+    }
+
+    .sensor-location i {
+      font-size: 2.8rem;
+      color: white;
+      filter: drop-shadow(0 0 15px #b380ff);
+      animation: iconPulse 2s infinite alternate;
+    }
+
+    .sensor-location span {
+      font-size: 0.85rem;
+      font-weight: 500;
+      color: rgba(255,255,255,0.9);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      background: rgba(0,0,0,0.3);
+      padding: 4px 8px;
+      border-radius: 30px;
+      backdrop-filter: blur(5px);
+    }
+
+    @keyframes sensorPulse {
+      0% { box-shadow: 0 0 30px rgba(180, 130, 255, 0.6); border-color: rgba(255,215,255,0.3); }
+      100% { box-shadow: 0 0 70px rgba(220, 170, 255, 1); border-color: rgba(255,255,255,0.6); }
+    }
+
+    @keyframes iconPulse {
+      0% { transform: scale(1); filter: drop-shadow(0 0 10px #b380ff); }
+      100% { transform: scale(1.1); filter: drop-shadow(0 0 25px #ffb3ff); }
+    }
+
+    .sensor-hint {
+      position: absolute;
+      left: 50%;
+      top: calc(80% + 70px);
+      transform: translateX(-50%);
+      color: rgba(255,255,255,0.4);
+      font-size: 0.9rem;
+      white-space: nowrap;
+      z-index: 10;
+      animation: fadeHint 3s infinite;
+    }
+
+    @keyframes fadeHint {
+      0% { opacity: 0.3; }
+      50% { opacity: 1; }
+      100% { opacity: 0.3; }
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;!-- Aurora background --&gt;
+  &lt;div class="aurora"&gt;&lt;/div&gt;
+
+  &lt;!-- Particle background --&gt;
+  &lt;div class="particle-field"&gt;
+    &lt;div class="particle"&gt;&lt;/div&gt;
+    &lt;div class="particle"&gt;&lt;/div&gt;
+    &lt;div class="particle"&gt;&lt;/div&gt;
+    &lt;div class="particle"&gt;&lt;/div&gt;
+    &lt;div class="particle"&gt;&lt;/div&gt;
+    &lt;div class="particle"&gt;&lt;/div&gt;
+    &lt;div class="particle"&gt;&lt;/div&gt;
+    &lt;div class="particle"&gt;&lt;/div&gt;
+    &lt;div class="particle"&gt;&lt;/div&gt;
+    &lt;div class="particle"&gt;&lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class="lock-screen" id="lockScreen"&gt;
+    &lt;div class="lock-card" id="lockCard"&gt;
+      &lt;div class="icon-wrapper" id="lockIconWrapper" onclick="runAppLockTask()"&gt;
+        &lt;!-- Glowing orb behind icon --&gt;
+        &lt;div class="orb"&gt;&lt;/div&gt;
+        &lt;i class="fas fa-lock lock-icon" id="lockIcon"&gt;&lt;/i&gt;
+      &lt;/div&gt;
+      &lt;h2&gt;
+        App Locked
+        &lt;div class="shimmer"&gt;&lt;/div&gt;
+      &lt;/h2&gt;
+      &lt;div class="hint"&gt;
+        &lt;i class="fas fa-shield-alt" style="margin-right: 10px;"&gt;&lt;/i&gt; 
+        biometric required
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class="sensor-location" onclick="runAppLockTask()"&gt;
+      &lt;div class="scan-ring"&gt;&lt;/div&gt;
+      &lt;i class="fas fa-fingerprint"&gt;&lt;/i&gt;
+      &lt;span&gt;scan&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div class="sensor-hint"&gt;
+      &lt;i class="fas fa-arrow-up"&gt;&lt;/i&gt; tap sensor
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;script&gt;
+    (function() {
+      'use strict';
+
+      const lockScreen = document.getElementById('lockScreen');
+      const lockCard = document.getElementById('lockCard');
+      const lockIcon = document.getElementById('lockIcon');
+
+      // ===== 3D TILT (ultra lightweight) =====
+      if (window.DeviceOrientationEvent &amp;&amp; /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent)) {
+        let ticking = false;
+        window.addEventListener('deviceorientation', function(e) {
+          if (!ticking) {
+            window.requestAnimationFrame(function() {
+              if (e.beta &amp;&amp; e.gamma) {
+                let tiltX = Math.min(10, Math.max(-10, e.beta - 45)) / 2;
+                let tiltY = Math.min(10, Math.max(-10, e.gamma)) / 2;
+                lockCard.style.transform = `perspective(1000px) rotateX(${-tiltX}deg) rotateY(${tiltY}deg) scale3d(1, 1, 1)`;
+              }
+              ticking = false;
+            });
+            ticking = true;
+          }
+        }, { passive: true });
+      }
+
+      // ===== RUN TASKER TASK =====
+      window.runAppLockTask = function() {
+        // Visual feedback: wiggle icon
+        if (lockIcon) {
+          lockIcon.classList.add('wiggle');
+          setTimeout(() =&gt; lockIcon.classList.remove('wiggle'), 300);
+        }
+
+        // Sensor press effect is already in CSS
+
+        // Tasker call
+        if (typeof tasker !== 'undefined' &amp;&amp; tasker &amp;&amp; typeof tasker.run === 'function') {
+          tasker.run('App Lock');
+        } else {
+          window.location.href = 'task:App Lock';
+        }
+      };
+
+      // ===== ANIMATED EXIT =====
+      window.animatedDestroy = function() {
+        if (lockScreen.classList.contains('exit')) return;
+        lockScreen.classList.add('exit');
+        lockScreen.addEventListener('animationend', function onAnimEnd(e) {
+          if (e.target === lockScreen &amp;&amp; e.animationName === 'lockExit') {
+            lockScreen.removeEventListener('animationend', onAnimEnd);
+            if (typeof destroyScene === 'function') {
+              destroyScene('LockScreen');
+            } else {
+              lockScreen.style.display = 'none';
+            }
+          }
+        });
+      };
+
+      console.log('✨ S23 Ultra Lock Screen – now with zero‑lag aurora, orb, shimmer &amp; scan ring!');
+    })();
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</Str>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Str sr="arg8" ve="3"/>
+		</WebElement>
+	</Scene>
+	<Task sr="task17">
+		<cdate>1768387270044</cdate>
+		<edate>1768445152928</edate>
+		<id>17</id>
+		<nme>Applock Time</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>360</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%input
+Input
+The text that was inserted in the dialog&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">Enter how many minuets</Str>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3">5</Str>
+			<Int sr="arg4" val="30"/>
+			<Str sr="arg5" ve="3">8194</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Str sr="arg8" ve="3"/>
+		</Action>
+	</Task>
+	<Task sr="task196">
+		<cdate>1679093705413</cdate>
+		<edate>1772786764356</edate>
+		<id>196</id>
+		<nme>App Lock</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>47</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">App Lock Check</Str>
+			<Int sr="arg1" val="2"/>
+			<Int sr="arg10" val="1"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="200"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="1"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>314</code>
+			<se>false</se>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">Authentication needed</Str>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="3"/>
+			<Str sr="arg6" ve="3">%result</Str>
+			<Int sr="arg7" val="15"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Credentials not provided! </Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg10" ve="3">#FFFFDB29</Str>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="1"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">android.resource://net.dinglisch.android.taskerm/drawable/mw_action_lock_outline</Str>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3">#FFFF0000</Str>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3">1000</Str>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>25</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>61</code>
+			<Int sr="arg0" val="430"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>101</code>
+			<Int sr="arg0" val="1"/>
+			<Str sr="arg1" ve="3">thief</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">176x144</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">App Lock Check</Str>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">Destroy App Lock Scene</Str>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%errmsg</lhs>
+					<op>4</op>
+					<rhs>Action timed out</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Time has run out! </Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg10" ve="3">#FFFFFFFF</Str>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="1"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">android.resource://net.dinglisch.android.taskerm/drawable/mw_action_lock_outline</Str>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3">#FFFF0000</Str>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3">1000</Str>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>335</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%app_icon
+Icon
+Icon for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%app_name
+Name
+Name of the App&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%app_package
+Package
+Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>25</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>61</code>
+			<Int sr="arg0" val="430"/>
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">App Lock Check</Str>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act24" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">Destroy App Lock Scene</Str>
+		</Action>
+		<Action sr="act25" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act26" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act27" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%result</lhs>
+					<op>2</op>
+					<rhs>success</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act28" ve="7">
+			<code>49</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">App Lock Check</Str>
+		</Action>
+		<Action sr="act29" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Unlocked successfully! </Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg10" ve="3">#FF34FF00</Str>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="1"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">android.resource://net.dinglisch.android.taskerm/drawable/mw_action_lock_open</Str>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3">#FF000000</Str>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3">1000</Str>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%app_package</lhs>
+					<op>2</op>
+					<rhs>com.sec.android.app.launcher</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act30" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">All Profiles Off</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act31" ve="7">
+			<code>62</code>
+			<Str sr="arg0" ve="3">1,50,50,50,50</Str>
+			<Str sr="arg1" ve="3"/>
+		</Action>
+		<Action sr="act32" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Applocked</Str>
+			<Str sr="arg1" ve="3">1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act33" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act34" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">Destroy App Lock Scene</Str>
+		</Action>
+		<Action sr="act35" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act36" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>25</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">com.sec.android.app.launcher</Str>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">App Lock Check</Str>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">App Lock</Str>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%errmsg</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<bool0>Or</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%result</lhs>
+					<op>2</op>
+					<rhs>Cancelled</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%result</lhs>
+					<op>2</op>
+					<rhs>Authentication cancelled</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+	</Task>
+	<Task sr="task200">
+		<cdate>1679053260605</cdate>
+		<edate>1768386491878</edate>
+		<id>200</id>
+		<pri>6</pri>
+		<Action sr="act0" ve="7">
+			<code>25</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>47</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">App Lock</Str>
+			<Int sr="arg1" val="2"/>
+			<Int sr="arg10" val="1"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="1"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%errmsg</lhs>
+					<op>4</op>
+					<rhs>Action timed out</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Time has run out! </Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3">#FFFFFFFF</Str>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="1"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">android.resource://net.dinglisch.android.taskerm/drawable/mw_action_lock_outline</Str>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3">#FFFF0000</Str>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3">1000</Str>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>25</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">App Lock</Str>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%result</lhs>
+					<op>2</op>
+					<rhs>success</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">All Profiles Off</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">App Lock</Str>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Unlocked successfully! </Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3">#FFFFFFFF</Str>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="1"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">android.resource://net.dinglisch.android.taskerm/drawable/mw_action_lock_open</Str>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3">#FFFF0000</Str>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3">1000</Str>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%lc_text</Str>
+			<Str sr="arg1" ve="3">[</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%lc_text2</Str>
+			<Str sr="arg1" ve="3">]</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>877</code>
+			<Str sr="arg0" ve="3">android.settings.APPLICATION_DETAILS_SETTINGS</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3">package:%lc_text21</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3">com.android.settings</Str>
+			<Str sr="arg8" ve="3">com.android.settings.applications.InstalledAppDetails</Str>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>314</code>
+			<se>false</se>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">Authentication needed</Str>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="3"/>
+			<Str sr="arg6" ve="3">%result</Str>
+			<Int sr="arg7" val="10"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%errmsg</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%result</lhs>
+					<op>4</op>
+					<rhs>Credentials not provided</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Credentials not provided! </Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3">#FFFFFFFF</Str>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="1"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">android.resource://net.dinglisch.android.taskerm/drawable/mw_action_lock_outline</Str>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3">#FFFF0000</Str>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3">1000</Str>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>25</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">App Lock</Str>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>38</code>
+		</Action>
+	</Task>
+	<Task sr="task201">
+		<cdate>1679086601733</cdate>
+		<edate>1679677096477</edate>
+		<id>201</id>
+		<pri>6</pri>
+		<Action sr="act0" ve="7">
+			<code>25</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>47</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">App Lock</Str>
+			<Int sr="arg1" val="2"/>
+			<Int sr="arg10" val="1"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="1"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%errmsg</lhs>
+					<op>4</op>
+					<rhs>Action timed out</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Time has run out! </Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3">#FFFFFFFF</Str>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="1"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">android.resource://net.dinglisch.android.taskerm/drawable/mw_action_lock_outline</Str>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3">#FFFF0000</Str>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3">1000</Str>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>25</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">App Lock</Str>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%result</lhs>
+					<op>2</op>
+					<rhs>success</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">All Profiles Off</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">App Lock</Str>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Unlocked successfully! </Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3">#FFFFFFFF</Str>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="1"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">android.resource://net.dinglisch.android.taskerm/drawable/mw_action_lock_open</Str>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3">#FFFF0000</Str>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3">1000</Str>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>877</code>
+			<Str sr="arg0" ve="3">android.intent.action.MAIN</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3">com.android.settings</Str>
+			<Str sr="arg8" ve="3">com.android.settings.DeviceAdminSettings</Str>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>314</code>
+			<se>false</se>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">Authentication needed</Str>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3">Use fingerprint scanner or enter PIN code</Str>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="3"/>
+			<Str sr="arg6" ve="3">%result</Str>
+			<Int sr="arg7" val="10"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%errmsg</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%result</lhs>
+					<op>4</op>
+					<rhs>Credentials not provided</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Credentials not provided! </Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3">#FFFFFFFF</Str>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="1"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">android.resource://net.dinglisch.android.taskerm/drawable/mw_action_lock_outline</Str>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3">#FFFF0000</Str>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3">1000</Str>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>25</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">App Lock</Str>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>38</code>
+		</Action>
+	</Task>
+	<Task sr="task204">
+		<cdate>1679251658224</cdate>
+		<edate>1771398799364</edate>
+		<id>204</id>
+		<nme>All Profiles On</nme>
+		<pri>6</pri>
+		<Action sr="act0" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">Tasker Lock (Apps Lock)</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>159</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">Tasker Settings Lock</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>159</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">Administrative Apps Lock</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>159</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">Developer Settings Lock</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task207">
+		<cdate>1679251658224</cdate>
+		<edate>1768443916078</edate>
+		<id>207</id>
+		<nme>All Profiles Off</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">Tasker Lock (Apps Lock)</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">Tasker Settings Lock</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">Administrative Apps Lock</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">Developer Settings Lock</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task211">
+		<cdate>1679054020269</cdate>
+		<edate>1768386487388</edate>
+		<id>211</id>
+		<pri>6</pri>
+		<Action sr="act0" ve="7">
+			<code>25</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>47</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">App Lock</Str>
+			<Int sr="arg1" val="2"/>
+			<Int sr="arg10" val="1"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="1"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%errmsg</lhs>
+					<op>4</op>
+					<rhs>Action timed out</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Time has run out! </Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3">#FFFFFFFF</Str>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="1"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">android.resource://net.dinglisch.android.taskerm/drawable/mw_action_lock_outline</Str>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3">#FFFF0000</Str>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3">1000</Str>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>25</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">App Lock</Str>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%result</lhs>
+					<op>2</op>
+					<rhs>success</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">All Profiles Off</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">App Lock</Str>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Unlocked successfully! </Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3">#FFFFFFFF</Str>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="1"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">android.resource://net.dinglisch.android.taskerm/drawable/mw_action_lock_open</Str>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3">#FFFF0000</Str>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3">1000</Str>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>877</code>
+			<Str sr="arg0" ve="3">android.settings.APPLICATION_DEVELOPMENT_SETTINGS</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>314</code>
+			<se>false</se>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">Authentication needed</Str>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="3"/>
+			<Str sr="arg6" ve="3">%result</Str>
+			<Int sr="arg7" val="15"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%errmsg</lhs>
+					<op>12</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%result</lhs>
+					<op>4</op>
+					<rhs>Credentials not provided</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Credentials not provided! </Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3">#FFFFFFFF</Str>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="1"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">android.resource://net.dinglisch.android.taskerm/drawable/mw_action_lock_outline</Str>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3">#FFFF0000</Str>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3">1000</Str>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>25</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">App Lock</Str>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>38</code>
+		</Action>
+	</Task>
+	<Task sr="task223">
+		<cdate>1766909801291</cdate>
+		<edate>1766909801291</edate>
+		<id>223</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>335</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%app_icon
+Icon
+Icon for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%app_name
+Name
+Name of the App&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%app_package
+Package
+Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>25</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">App Lock</Str>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>61</code>
+			<Int sr="arg0" val="50"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Exited from %app_name
+
+You need to provide credintials to access %app_name</Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg10" ve="3">#FFFFFFFF</Str>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="1"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3">Locked %app_name</Str>
+			<Str sr="arg4" ve="3">android.resource://net.dinglisch.android.taskerm/drawable/mw_action_lock_outline</Str>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3">#FFFF0000</Str>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3">1000</Str>
+			<Int sr="arg9" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task224">
+		<cdate>1766909805695</cdate>
+		<edate>1766909805695</edate>
+		<id>224</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>335</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%app_icon
+Icon
+Icon for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%app_name
+Name
+Name of the App&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%app_package
+Package
+Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Press &amp; hold to exit! 
+
+But you cant access to %app_name </Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg10" ve="3">#FFFFFFFF</Str>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="1"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3">%app_name</Str>
+			<Str sr="arg4" ve="3">content://net.dinglisch.android.taskerm.iconprovider//app/%app_package</Str>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3">#FFFF2B00</Str>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task225">
+		<cdate>1772006368066</cdate>
+		<edate>1772006368066</edate>
+		<id>225</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>335</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%app_icon
+Icon
+Icon for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%app_name
+Name
+Name of the App&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%app_package
+Package
+Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">App Lock</Str>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>61</code>
+			<Int sr="arg0" val="50"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Please click PIN &amp; enter desired PIN to access %app_name</Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg10" ve="3">#FFFFFFFF</Str>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="1"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3">%app_name</Str>
+			<Str sr="arg4" ve="3">content://net.dinglisch.android.taskerm.iconprovider//app/%app_package</Str>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3">#FF000000</Str>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3">1000</Str>
+			<Int sr="arg9" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task226">
+		<cdate>1766911283772</cdate>
+		<edate>1766911283772</edate>
+		<id>226</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>335</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%app_icon
+Icon
+Icon for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%app_name
+Name
+Name of the App&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%app_package
+Package
+Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Press &amp; hold to close overlay &amp; access %app_name via PIN!</Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg10" ve="3">#FFFFFFFF</Str>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="1"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3">%app_name</Str>
+			<Str sr="arg4" ve="3">content://net.dinglisch.android.taskerm.iconprovider//app/%app_package</Str>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3">#FFFF2B00</Str>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task227">
+		<cdate>1766911593038</cdate>
+		<edate>1766911593038</edate>
+		<id>227</id>
+		<Action sr="act0" ve="7">
+			<code>335</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%app_icon
+Icon
+Icon for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%app_name
+Name
+Name of the App&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%app_package
+Package
+Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Press &amp; hold to exit! 
+
+But you cant access to %app_name </Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg10" ve="3">#FFFFFFFF</Str>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="1"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3">%app_name</Str>
+			<Str sr="arg4" ve="3">content://net.dinglisch.android.taskerm.iconprovider//app/%app_package</Str>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3">#FFFF2B00</Str>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task228">
+		<cdate>1766911593038</cdate>
+		<edate>1766911593038</edate>
+		<id>228</id>
+		<pri>7</pri>
+		<Action sr="act0" ve="7">
+			<code>335</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%app_icon
+Icon
+Icon for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%app_name
+Name
+Name of the App&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%app_package
+Package
+Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Press &amp; hold to exit! 
+
+But you cant access to %app_name </Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg10" ve="3">#FFFFFFFF</Str>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="1"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3">%app_name</Str>
+			<Str sr="arg4" ve="3">content://net.dinglisch.android.taskerm.iconprovider//app/%app_package</Str>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3">#FFFF2B00</Str>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task252">
+		<cdate>1768398022907</cdate>
+		<edate>1768443902507</edate>
+		<id>252</id>
+		<nme>Manual App Lock</nme>
+		<pri>1000</pri>
+		<Action sr="act0" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">Tasker Lock (Apps Lock)</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Apps Locked</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task264">
+		<cdate>1768445162905</cdate>
+		<edate>1771857700713</edate>
+		<id>264</id>
+		<nme>App Locked Check</nme>
+		<Action sr="act0" ve="7">
+			<code>335</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%app_icon
+Icon
+Icon for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%app_name
+Name
+Name of the App&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%app_package
+Package
+Unique package name for the app&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.sec.android.app.launcher</Str>
+			<Str sr="arg2" ve="3"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%app_package</lhs>
+					<op>2</op>
+					<rhs>com.sec.android.app.launcher</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>25</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">com.sec.android.app.launcher</Str>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">App Lock</Str>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>38</code>
+		</Action>
+	</Task>
+	<Task sr="task484">
+		<cdate>1771918822590</cdate>
+		<edate>1772006476555</edate>
+		<id>484</id>
+		<nme>Destroy App Lock Scene</nme>
+		<Action sr="act0" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>61</code>
+			<Int sr="arg0" val="200"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Exited without unlocking!</Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">App Lock</Str>
+		</Action>
+	</Task>
+	<Task sr="task520">
+		<cdate>1772166426584</cdate>
+		<edate>1772166426584</edate>
+		<id>520</id>
+		<pri>7</pri>
+		<Action sr="act0" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">App Lock</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>
