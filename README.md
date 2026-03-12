@@ -1,164 +1,314 @@
-# Tasker-App-Lock-Project
-A comprehensive, biometric‑protected app locker built with Tasker for Android. It locks selected apps and sensitive system settings behind a beautiful, animated lock screen that supports fingerprint / PIN authentication.
+<h1 align="center">🔒 Tasker Advanced App Locker</h1>
+
+<p align="center">
+A powerful <b>Tasker automation project</b> that turns your Android device into a fully customizable <b>application locker</b>.
+</p>
+
+<hr>
+
+<h2>📖 Description</h2>
+
+<p>
+This Tasker project turns your Android device into a <b>fully customizable application locker</b>.
+When you try to open a protected app
+(<i>WhatsApp, TikTok, Telegram, Reddit, Instagram, etc.</i>) or enter critical system areas
+(<b>Developer Options, Device Administrators, or Tasker’s own settings</b>),
+a <b>full-screen lock scene</b> appears.
+</p>
+
+<p>
+The scene features a modern <b>glass-morphism design</b> with floating animations,
+a pulsing fingerprint sensor, and a subtle <b>3D tilt effect</b> that reacts to device orientation.
+</p>
 
-📖 Description
+<p>
+Authentication is handled by Android’s <b>native biometric prompt</b>
+(fingerprint / face) or a fallback <b>PIN</b>.
+If authentication succeeds, the lock screen fades out and access is granted.
+If it fails, a notification is shown and optionally the front camera captures an
+<b>intruder selfie</b>.
+</p>
 
-This Tasker project turns your Android device into a fully customizable application locker.
-When you try to open a protected app (WhatsApp, TikTok, Telegram, Reddit, Instagram, etc.) or enter critical system areas (Developer Options, Device Administrators, or Tasker’s own settings), a full‑screen lock scene appears.
-The scene features a modern glass‑morphism design with floating animations, a pulsing fingerprint sensor, and a subtle 3D tilt effect that reacts to device orientation.
+<p>
+The lock automatically re-enables itself after a configurable timeout and can also
+be triggered manually via a <b>Quick Settings tile</b> or a dedicated Tasker task.
+</p>
 
-Authentication is handled by Android’s native biometric prompt (fingerprint / face) or a fallback PIN.
-If authentication succeeds, the lock screen fades out and you gain access.
-If it fails, a notification is shown and, optionally, the front camera takes a photo of the intruder (the “thief” feature).
-The lock also automatically re‑enables itself after a configurable timeout and can be triggered manually via a quick settings tile or a dedicated task.
+<hr>
 
-Behind the scenes, the project uses:
+<h2>⚙️ Behind the Scenes</h2>
 
-Logcat Event profiles to detect when protected settings are opened.
+<p>The project uses several Tasker automation mechanisms:</p>
 
-Application context profiles to intercept the launch of specified apps.
+<ul>
+<li><b>Logcat Event profiles</b> to detect when protected settings are opened.</li>
+<li><b>Application context profiles</b> to intercept launches of protected apps.</li>
+<li><b>Display Off and Shutdown profiles</b> to automatically relock everything.</li>
+<li><b>Scenes with embedded HTML/JavaScript</b> to present a smooth animated lock UI.</li>
+<li><b>Tasks</b> that manage authentication, timeouts, and profile control.</li>
+</ul>
 
-Display Off and Shutdown profiles to re‑lock everything when the screen turns off or the device is about to shut down.
+<p>
+All protected apps and settings are <b>fully customizable</b> inside Tasker.
+You can add or remove packages without touching code.
+The lock screen appearance can also be modified by editing the inline CSS in the scene.
+</p>
 
-Scenes with embedded HTML/JavaScript to present the lock UI, complete with smooth enter/exit animations and direct communication with Tasker tasks.
+<p>
+Originally shared on Reddit, this project has evolved into a
+<b>polished production-ready app locker</b> that works on any Android device with Tasker installed.
+</p>
 
-Tasks that show the lock scene, wait for biometric/PIN input, handle timeouts, and toggle profiles on/off.
+<p>
+It respects your privacy — <b>no data ever leaves your device</b>.
+</p>
 
-All protected apps and settings are easily customizable inside Tasker – you can add or remove packages without touching a single line of code. The lock screen’s appearance can also be tweaked by editing the inline CSS inside the scene.
+<hr>
 
-Originally shared on Reddit, this project has evolved into a polished, production‑ready app locker that works on any Android device with Tasker installed. It respects your privacy (no data leaves your device) and gives you fine‑grained control over which apps and system panels are protected.
+<h2>✨ Features</h2>
 
-✨ Features
+<ul>
+<li>🔐 Lock any app by adding its package name</li>
+<li>⚙️ Protect system settings (Developer Options, Device Admin, Tasker preferences)</li>
+<li>👆 Biometric + PIN authentication</li>
+<li>🎨 Beautiful animated lock screen (glass card, glow, fingerprint animation)</li>
+<li>🔁 Auto-relock when screen turns off or device shuts down</li>
+<li>📸 Intruder selfie capture on failed authentication</li>
+<li>🧩 Manual lock/unlock via Quick Settings or Tasker task</li>
+<li>⏱ Configurable timeout before relocking</li>
+<li>🛠 Fully customizable UI and protected apps list</li>
+</ul>
+
+<hr>
+
+<h2>📋 Requirements</h2>
+
+<ul>
+<li><b>Tasker</b> (latest version recommended)</li>
+<li><b>Android 5.0+</b></li>
+<li>Logcat permission (ADB or root may be required on newer Android versions)</li>
+<li>Device with biometric hardware for fingerprint/face authentication</li>
+</ul>
+
+<hr>
+
+<h2>🔧 Installation</h2>
+
+<h3>1️⃣ Import the Project</h3>
+
+<ol>
+<li>Copy the provided XML code.</li>
+<li>Open Tasker.</li>
+<li>Long-press the <b>Home</b> icon.</li>
+<li>Select <b>Import Project</b>.</li>
+<li>Paste the XML.</li>
+</ol>
+
+<h3>2️⃣ Grant Permissions</h3>
+
+<p><b>Logcat permission</b> (needed for settings protection):</p>
+
+<pre><code>adb shell pm grant net.dinglisch.android.taskerm android.permission.READ_LOGS</code></pre>
+
+<p>
+Root users can grant this permission via a root shell instead.
+</p>
+
+<p>
+Also enable <b>Display over other apps</b> permission for Tasker.
+</p>
+
+<h3>3️⃣ Customize Apps (Optional)</h3>
+
+<p>
+Edit the profile <b>"Tasker Lock (Apps Lock)"</b> and add or remove apps
+from the App context list.
+</p>
 
-Lock any app – just add its package name to the profile.
+<h3>4️⃣ Enable Profiles</h3>
 
-Protect system settings – Developer Options, Device Admin list, Tasker preferences.
+<p>
+All profiles are disabled after import. Enable them manually or run the
+<b>"All Profiles On"</b> task.
+</p>
+
+<h3>5️⃣ Test</h3>
+
+<p>
+Open a protected app or settings panel.  
+The lock screen should appear immediately.
+</p>
 
-Biometric + PIN authentication – uses Android’s native prompt.
+<hr>
 
-Beautiful animated lock screen – glass card, floating icon, rotating glow, fingerprint sensor animation.
+<h2>⚙️ How It Works</h2>
 
-Auto‑relock on screen off or device shutdown.
+<h3>Profiles</h3>
 
-Intruder selfie – takes a photo if authentication fails (optional).
+<table>
+<tr>
+<th>Profile Name</th>
+<th>Trigger</th>
+<th>Action</th>
+</tr>
 
-Manual lock/unlock – via a dedicated task (can be assigned to a home screen widget or Quick Tile).
+<tr>
+<td>Tasker Lock (Apps Lock)</td>
+<td>Protected app launch</td>
+<td>Runs App Lock task</td>
+</tr>
 
-Timeout – lock automatically re‑enables after a set time.
+<tr>
+<td>Developer Settings Lock</td>
+<td>Logcat ~RDevelopmentSettings</td>
+<td>Runs App Lock task</td>
+</tr>
 
-Fully customizable – add apps, change colors, animations, timeout, etc.
+<tr>
+<td>Administrative Apps Lock</td>
+<td>Logcat ~RDeviceAdminSettings</td>
+<td>Runs App Lock task</td>
+</tr>
 
-📋 Requirements
+<tr>
+<td>Tasker Settings Lock</td>
+<td>Logcat entry from Tasker</td>
+<td>Runs App Lock task</td>
+</tr>
 
-Tasker (latest version recommended) – Google Play
+<tr>
+<td>Lock All On Display Off</td>
+<td>Screen turned off</td>
+<td>Runs All Profiles On</td>
+</tr>
 
-Android 5.0+ (Logcat permissions may require ADB or root on some devices)
+<tr>
+<td>Lock All On Shutdown</td>
+<td>Device shutdown</td>
+<td>Runs All Profiles On</td>
+</tr>
 
-For biometric authentication: device with fingerprint/face hardware and enrolled credentials
+</table>
 
-🔧 Installation
+<hr>
 
-Import the project
+<h3>Tasks</h3>
 
-Copy the provided XML code.
+<p><b>App Lock</b></p>
+<ul>
+<li>Displays the lock scene</li>
+<li>Waits for biometric or PIN authentication</li>
+</ul>
 
-In Tasker, long‑press the “Home” icon → Import → Import Project → paste the XML.
+<p><b>On Success</b></p>
+<ul>
+<li>Temporarily disables lock profiles</li>
+<li>Shows success notification</li>
+<li>Re-enables lock profiles after timeout</li>
+</ul>
 
-Grant necessary permissions
+<p><b>On Failure</b></p>
+<ul>
+<li>Shows failure notification</li>
+<li>Optionally takes an intruder photo</li>
+<li>Keeps lock screen active</li>
+</ul>
 
-Logcat permission (for settings‑lock profiles):
+<hr>
 
-On Android 9+, run this ADB command once:
-adb shell pm grant net.dinglisch.android.taskerm android.permission.READ_LOGS
+<h3>Scene</h3>
 
-Alternatively, root users can grant via a root shell.
+<p>
+The lock interface is a <b>WebView-based scene</b> using embedded HTML, CSS and JavaScript.
+</p>
 
-Display over other apps permission for the lock scene.
+<p>It includes:</p>
 
-Customize the app list (optional)
+<ul>
+<li>Glass-morphism lock card</li>
+<li>Animated glowing border</li>
+<li>Interactive fingerprint sensor</li>
+<li>Floating lock icon</li>
+<li>Smooth fade-out unlock animation</li>
+</ul>
 
-Edit the profile “Tasker Lock (Apps Lock)” and add/remove applications under the App tab.
+<p>
+JavaScript communicates with Tasker tasks using:
+</p>
 
-Enable the profiles
+<pre><code>tasker.run('App Lock')</code></pre>
 
-All profiles are disabled by default after import. Enable them one by one or use the All Profiles On task.
+<hr>
 
-Test
+<h2>🎨 Customization</h2>
 
-Open a protected app or a settings page – the lock screen should appear.
+<h3>Adding or Removing Apps</h3>
 
-⚙️ How It Works
+<ol>
+<li>Open <b>Profiles → Tasker Lock (Apps Lock)</b></li>
+<li>Tap the <b>App context</b></li>
+<li>Add or remove packages</li>
+</ol>
 
-Profiles
-Profile Name	Trigger	Action
-Tasker Lock (Apps Lock)	Launch of any selected app	Runs App Lock task
-Developer Settings Lock	Logcat entry ~RDevelopmentSettings	Runs App Lock task
-Administrative Apps Lock	Logcat entry ~RDeviceAdminSettings	Runs App Lock task
-Tasker Settings Lock	Logcat entry from Tasker’s AppLocaleUtil	Runs App Lock task
-Lock All On Display Off	Display OFF	Runs All Profiles On
-Lock All On Shutdown	Device shutdown	Runs All Profiles On
-Tasks
-App Lock – Shows the lock scene (App Lock Check), then waits for biometric/PIN input.
+<h3>Changing Lock Timeout</h3>
 
-On success: turns off all lock profiles (so you can use the app/settings), shows success notification, then re‑enables profiles after a timeout (configurable via Applock Time task).
+<p>
+Edit the <b>Applock Time</b> task and modify the timeout value.
+</p>
 
-On failure/cancel: shows failure notification, optionally takes a photo (task thief), and keeps the lock scene active.
+<h3>Changing Lock Screen Design</h3>
 
-All Profiles On / Off – Enables/disables all four lock profiles.
+<ol>
+<li>Open scene <b>App Lock Check</b></li>
+<li>Edit the WebView HTML/CSS</li>
+<li>Modify colors, layout, animations</li>
+</ol>
 
-Destroy App Lock Scene – Smoothly closes the lock screen without unlocking.
+<h3>Intruder Selfie</h3>
 
-Manual App Lock – Turns on the app‑lock profile manually.
+<p>
+Enable the <b>Take Camera Photo</b> action in the <b>App Lock</b> task
+if you want intruder capture.
+</p>
 
-Scene
+<hr>
 
-The lock screen is a WebView element with embedded HTML/CSS/JS. It includes:
+<h2>📜 License</h2>
 
-A glass card with animated glowing border.
+<p>
+This project is licensed under the <b>MIT License</b>.
+You are free to use, modify and distribute it with proper attribution.
+</p>
 
-A large lock icon that runs the App Lock task when tapped.
+<hr>
 
-A fingerprint‑sensor graphic that also triggers authentication.
+<h2>🙏 Credits</h2>
 
-JavaScript that calls tasker.run('App Lock') to re‑trigger authentication.
+<ul>
+<li>Original concept by <b>u/FM_tasks</b> on Reddit</li>
+<li>Improved and polished by the community</li>
+<li>Built with <b>Tasker</b>, the most powerful Android automation tool</li>
+</ul>
 
-Smooth fade‑out animation (animatedDestroy()) when unlocking.
+<hr>
 
-🎨 Customization
+<h2>🚀 Contributing</h2>
 
-Adding/removing apps
-Go to Profiles → Tasker Lock (Apps Lock).
+<p>
+Found a bug or want to add a feature?
+Feel free to open an issue or submit a pull request on GitHub.
+</p>
 
-Tap the App context (the one with the app list).
+<hr>
 
-Use the + / – buttons to add or remove apps by package name.
+<h2>📱 Screenshots</h2>
 
-Changing lock timeout
-Edit the Applock Time task – it asks for minutes. Modify the default value or the logic.
+<p align="center">
+(Add screenshots of the lock screen, Tasker profiles, and tasks here)
+</p>
 
-Adjusting the lock screen design
-Open the scene App Lock Check.
+<hr>
 
-Tap the WebView element and edit the HTML/CSS inside.
-You can change colors, animations, text, or even replace the whole layout.
-
-Intruder selfie
-In the App Lock task, locate the action “Take Camera Photo” (code 101).
-Uncomment or enable it if you want it to run on failed attempts.
-
-📜 License
-This project is licensed under the MIT License.
-You are free to use, modify, and distribute it, provided that you include the original copyright notice.
-
-🙏 Credits
-Original idea and initial implementation by u/FM_tasks on Reddit.
-Enhanced and polished by the community.
-Built with Tasker – the most powerful automation tool for Android.
-
-🚀 Contributing
-Found a bug or have a feature request? Feel free to open an issue or submit a pull request on GitHub.
-
-📱 Screenshots
-(Include images of the lock screen, profile list, and task list here)
-
-Enjoy your secured device! 🔒
+<p align="center">
+<b>Enjoy your secured device! 🔒</b>
+</p>
