@@ -304,9 +304,9 @@ Feel free to open an issue or submit a pull request on GitHub.
 <h2>📱 Screenshots</h2>
 
 <p align="center">
-(Add screenshots of the lock screen, Tasker profiles, and tasks here)
-</p>
 
+</p>
+![WhatsApp Image 2026-03-12 at 16 31 12](https://github.com/user-attachments/assets/90820361-daa8-4fef-909c-988eb5a17fbc)
 <hr>
 
 <p align="center">
