@@ -304,7 +304,7 @@ Feel free to open an issue or submit a pull request on GitHub.
 <h2 align="center">📱 Screenshots</h2>
 
 <p align="center">
-<img src="screenshots/lockscreen.png" width="300">
+<img src="WhatsApp Image 2026-03-12 at 16.31.12.jpeg" width="300">
 
 </p>
 
