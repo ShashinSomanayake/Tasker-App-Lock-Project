@@ -2,6 +2,7 @@
 A comprehensive, biometric‑protected app locker built with Tasker for Android. It locks selected apps and sensitive system settings behind a beautiful, animated lock screen that supports fingerprint / PIN authentication.
 
 📖 Description
+
 This Tasker project turns your Android device into a fully customizable application locker.
 When you try to open a protected app (WhatsApp, TikTok, Telegram, Reddit, Instagram, etc.) or enter critical system areas (Developer Options, Device Administrators, or Tasker’s own settings), a full‑screen lock scene appears.
 The scene features a modern glass‑morphism design with floating animations, a pulsing fingerprint sensor, and a subtle 3D tilt effect that reacts to device orientation.
@@ -28,6 +29,7 @@ All protected apps and settings are easily customizable inside Tasker – you ca
 Originally shared on Reddit, this project has evolved into a polished, production‑ready app locker that works on any Android device with Tasker installed. It respects your privacy (no data leaves your device) and gives you fine‑grained control over which apps and system panels are protected.
 
 ✨ Features
+
 Lock any app – just add its package name to the profile.
 
 Protect system settings – Developer Options, Device Admin list, Tasker preferences.
@@ -47,6 +49,7 @@ Timeout – lock automatically re‑enables after a set time.
 Fully customizable – add apps, change colors, animations, timeout, etc.
 
 📋 Requirements
+
 Tasker (latest version recommended) – Google Play
 
 Android 5.0+ (Logcat permissions may require ADB or root on some devices)
@@ -54,6 +57,7 @@ Android 5.0+ (Logcat permissions may require ADB or root on some devices)
 For biometric authentication: device with fingerprint/face hardware and enrolled credentials
 
 🔧 Installation
+
 Import the project
 
 Copy the provided XML code.
@@ -84,6 +88,7 @@ Test
 Open a protected app or a settings page – the lock screen should appear.
 
 ⚙️ How It Works
+
 Profiles
 Profile Name	Trigger	Action
 Tasker Lock (Apps Lock)	Launch of any selected app	Runs App Lock task
@@ -106,6 +111,7 @@ Destroy App Lock Scene – Smoothly closes the lock screen without unlocking.
 Manual App Lock – Turns on the app‑lock profile manually.
 
 Scene
+
 The lock screen is a WebView element with embedded HTML/CSS/JS. It includes:
 
 A glass card with animated glowing border.
@@ -119,6 +125,7 @@ JavaScript that calls tasker.run('App Lock') to re‑trigger authentication.
 Smooth fade‑out animation (animatedDestroy()) when unlocking.
 
 🎨 Customization
+
 Adding/removing apps
 Go to Profiles → Tasker Lock (Apps Lock).
 
