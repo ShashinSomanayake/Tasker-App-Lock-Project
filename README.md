@@ -301,13 +301,12 @@ Feel free to open an issue or submit a pull request on GitHub.
 
 <hr>
 
-<h2>📱 Screenshots</h2>
+<h2 align="center">📱 Screenshots</h2>
 
 <p align="center">
+<img src="screenshots/lockscreen.png" width="300">
 
 </p>
-![WhatsApp Image 2026-03-12 at 16 31 12](https://github.com/user-attachments/assets/90820361-daa8-4fef-909c-988eb5a17fbc)
-<hr>
 
 <p align="center">
 <b>Enjoy your secured device! 🔒</b>
